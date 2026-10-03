@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 
-data = pd.read_csv("C:\\Users\\Shobhankar\\OneDrive\\Desktop\\coding\\AISC\\exp7\\data.csv")
+data = pd.read_csv("C:\\Users\\Shobhankar\\OneDrive\\Desktop\\codinig\\AISC\\exp7\\data.csv")
 X = data[["Area"]]
 y = data["Price"]
 model = LinearRegression()
